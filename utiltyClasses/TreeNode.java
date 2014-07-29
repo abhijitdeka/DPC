@@ -1,4 +1,4 @@
-package checkIfCousinNodes;
+package utiltyClasses;
 
 public class TreeNode {
 	public int val;

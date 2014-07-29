@@ -1,5 +1,7 @@
 package checkIfCousinNodes;
 
+import utiltyClasses.TreeNode;
+
 public class CheckIfCousinNodes {
 	
 	public static boolean checkNodes(TreeNode root,TreeNode a,TreeNode b)
