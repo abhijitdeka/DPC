@@ -1,0 +1,13 @@
+ http://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/
+ recently encountered with a question in an interview at e-commerce company. The interviewer asked the following question:
+
+There is BST given with root node with key part as integer only. The structure of each node is as follows:
+
+struct Node
+{
+    int key;
+    struct Node *left, *right ;
+};
+You need to find the inorder successor and predecessor of a given key. In case the given key is not found in BST, then return the two values within which this key will lie.
+
+Following is the algorithm to reach the desired result. Its a recursive method:
