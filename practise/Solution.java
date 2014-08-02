@@ -47,7 +47,7 @@ public class Solution {
             while ((line = stdin.readLine()) != null && line.length()!= 0) {
                 String[] input = line.split(" ");
                 if (input.length == 2) {
-                     Solution.algo(Integer.parseInt(input[0]),Integer.parseInt(input[1]),laneWidths);
+                    // Solution.algo(Integer.parseInt(input[0]),Integer.parseInt(input[1]),laneWidths);
                   }
          }
 		
